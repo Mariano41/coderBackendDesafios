@@ -1,0 +1,119 @@
+[
+    {
+        "id": 0,
+        "title": "Guitarra Fender",
+        "description": "guitarra eléctrica",
+        "price": 300000,
+        "img": "img0",
+        "code": "abc123",
+        "stock": 4
+    },
+    {
+        "id": 1,
+        "title": "Guitarra Fender 2",
+        "description": "guitarra eléctrica",
+        "price": 310000,
+        "img": "img1",
+        "code": "abc1234",
+        "stock": 7
+    },
+    {
+        "id": 2,
+        "title": "Guitarra Gibson",
+        "description": "guitarra eléctrica",
+        "price": 260000,
+        "img": "img2",
+        "code": "abc12345",
+        "stock": 2
+    },
+    {
+        "id": 3,
+        "title": "Guitarra Epiphone",
+        "description": "guitarra eléctrica",
+        "price": 200000,
+        "img": "img3",
+        "code": "abc123456",
+        "stock": 3
+    },
+    {
+        "id": 4,
+        "title": "Guitarra Yamaha",
+        "description": "guitarra criolla",
+        "price": 60000,
+        "img": "img4",
+        "code": "abc1234567",
+        "stock": 4
+    },
+    {
+        "id": 5,
+        "title": "Guitarra Yamaha",
+        "description": "guitarra electro acústica",
+        "price": 80000,
+        "img": "img5",
+        "code": "abc12345678",
+        "stock": 9
+    },
+    {
+        "id": 6,
+        "title": "Guitarra Schecter",
+        "description": "guitarra eléctrica 7 cuerdas",
+        "price": 240000,
+        "img": "img6",
+        "code": "abc123456789",
+        "stock": 6
+    },
+    {
+        "id": 7,
+        "title": "Guitarra Schecter 2",
+        "description": "guitarra eléctrica 8 cuerdas",
+        "price": 290000,
+        "img": "img7",
+        "code": "abc1234567891",
+        "stock": 1
+    },
+    {
+        "id": 8,
+        "title": "Guitarra Ibanez",
+        "description": "guitarra eléctrica",
+        "price": 200000,
+        "img": "img8",
+        "code": "abc12345678912",
+        "stock": 5
+    },
+    {
+        "id": 9,
+        "title": "Guitarra Jackson",
+        "description": "guitarra eléctrica",
+        "price": 160000,
+        "img": "img9",
+        "code": "abc123456789123",
+        "stock": 15
+    },
+    {
+        "id": 10,
+        "title": "Guitarra ARIA",
+        "description": "Guitarra Criolla",
+        "price": 45000,
+        "img": "img89",
+        "code": "aaa111",
+        "stock": 11
+    },
+    {
+        "id": 11,
+        "title": "Guitarra ARIA 2",
+        "description": "Guitarra Criolla",
+        "price": 55000,
+        "img": "img90",
+        "code": "bbb111",
+        "stock": 1
+    },
+    {
+        "id": 13,
+        "title": "Guitarra Guild",
+        "description": "Guitarra acustica",
+        "price": 90000,
+        "img": "img93",
+        "code": "aasdbbb111",
+        "stock": 2
+    }
+]
