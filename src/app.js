@@ -11,7 +11,7 @@ import sessionsRouter from './routes/sessions.router.js';
 
 import products from "./routes/productos.router.js";
 import carts from './routes/carts.js';
-import __dirname from './utils/utils.js'
+import __dirname from '../utils.js'
 
 import {Server} from 'socket.io'
 import ProductManager from './models/ProductManager.js';
@@ -31,7 +31,7 @@ app.use("/api/sessions", sessionsRouter)
 
 app.engine("handlebars", handlebars.engine());
 app.set('view engine', 'handlebars');
-app.set("views", `${__dirname}/views`);
+app.set("views", `${__dirname}/src/views`);
 
 // hbs.registerPartials(__dirname + '/views/partials');
 
@@ -39,12 +39,12 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true}));
 app.use(express.static(`${__dirname}/public`));
 
-mongoose.connect("mongodb+srv://MarianoBriozzo:<929390>@cluster0.rmtkxoi.mongodb.net/?retryWrites=true&w=majority")
+mongoose.connect("mongodb+srv://MarianoBriozzo:929390@cluster0.rmtkxoi.mongodb.net/?retryWrites=true&w=majority")
 
 app.use(cookieParser())
 app.use(session({
     store: MongoStore.create({
-        mongoUrl:"mongodb+srv://MarianoBriozzo:<929390>@cluster0.rmtkxoi.mongodb.net/?retryWrites=true&w=majority",
+        mongoUrl:"mongodb+srv://MarianoBriozzo:929390@cluster0.rmtkxoi.mongodb.net/?retryWrites=true&w=majority",
         ttl: 60,
     }),
     secret: "Codersecret",
